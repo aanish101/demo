@@ -47,7 +47,9 @@ function App() {
   return (
     <div className="App">
       <div className="container p-6 bold fz-sm ls-39 p-md-3 pt-3">
-        <h3 className="text-center  text-gray mt-5 mb-5 fz-sm">FEATURES</h3>
+        <h3 className="text-center  text-gray mt-5 mb-5 fz-sm font-semi-bold">
+          FEATURES
+        </h3>
         <h1 className="text-center main-heading mb-5 font-semi-bold">
           Here is more of what
           <br />

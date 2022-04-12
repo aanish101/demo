@@ -47,7 +47,7 @@ function App() {
   return (
     <div className='App'>
       <div className='container p-6 bold fz-sm ls-39'>
-        <h3 className='text-center mb-3'>FEATURES</h3>
+        <h3 className='text-center mb-3 text-gray'>FEATURES</h3>
         <h1 className='text-center main-heading mb-3'>
           Here is more of what
           <br />

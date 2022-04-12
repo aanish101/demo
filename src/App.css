@@ -11,6 +11,9 @@
 .fontregular {
   font-weight: 400;
 }
+.text-gray {
+  color: #515151;
+}
 .fz-sm {
   font-size: 0.8rem;
 }

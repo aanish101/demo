@@ -46,7 +46,7 @@ function App() {
   ];
   return (
     <div className='App'>
-      <div className='container p-6 bold fz-sm ls-39'>
+      <div className='container p-6 bold fz-sm ls-39 p-md-3'>
         <h3 className='text-center mb-3 text-gray'>FEATURES</h3>
         <h1 className='text-center main-heading mb-3'>
           Here is more of what
@@ -60,7 +60,7 @@ function App() {
         <div className='items-grid'>
           {data.map((item) => (
             <div className='item p-3' key={item.id}>
-              <div className='item-icon flex justify-center mb-3'>
+              <div className='item-icon flex justify-center mb-3 '>
                 <img src={item.icon} alt='icon' className='icon' />
               </div>
               <div className='item-text text-center'>

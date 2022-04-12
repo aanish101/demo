@@ -33,6 +33,11 @@
 .p-6 {
   padding: 3rem;
 }
+@media screen and (max-width: 600px) {
+  .p-md-3 {
+    padding: 3rem 1rem !important;
+  }
+}
 .p-5 {
   padding: 2rem;
 }
@@ -98,7 +103,7 @@
   font-size: 14px;
   line-height: 160%;
   letter-spacing: -0.01em;
-
+  padding: 0 20px;
   color: #999999;
 }
 .btn {

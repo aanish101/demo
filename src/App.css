@@ -3,9 +3,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 .font-bold {
+  font-weight: 700;
+}
+.font-semi-bold {
   font-weight: 600;
 }
 .fontregular {
@@ -15,7 +18,7 @@
   color: #515151;
 }
 .fz-sm {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 .fz-normal {
   font-size: 1rem;
@@ -41,6 +44,9 @@
 .p-5 {
   padding: 2rem;
 }
+.pt-10 {
+  padding-top: 8rem;
+}
 .p-3 {
   padding: 1rem;
 }
@@ -53,11 +59,17 @@
 .mb-2 {
   margin-bottom: 0.5rem;
 }
+.mt-3 {
+  margin-top: 1rem;
+}
+.mt-5 {
+  margin-top: 2rem;
+}
 .ls-39 {
   letter-spacing: 0.39em;
 }
 .main-heading {
-  font-weight: bold;
+  font-weight: 600;
   font-size: clamp(1.5rem, 4vw, 2rem);
   letter-spacing: -0.02em;
   line-height: 2.5rem;
@@ -66,7 +78,7 @@
   min-height: 100vh;
 }
 .sub-heading {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: clamp(14px, 1vw, 16px);
@@ -89,15 +101,16 @@
 }
 
 .item-heading {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: bold;
-  font-size: clamp(14px, 1vw, 16px);
+  font-size: clamp(16px, 1vw, 18px);
   line-height: 1.5rem;
   text-align: center;
+  letter-spacing: 1px;
 }
 .item-text-content {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;

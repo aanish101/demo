@@ -1,13 +1,19 @@
 /* Importing Fonts */
 @font-face {
-  font-family: 'Inter';
-  src: url('./Assets/Fonts/Inter/static/Inter-Regular.ttf');
+  font-family: "Inter";
+  src: url("./Assets/Fonts/Inter/static/Inter-Regular.ttf");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Inter';
-  src: url('./Assets/Fonts/Inter/static/Inter-Bold.ttf');
+  font-family: "Inter";
+  src: url("./Assets/Fonts/Inter/static/Inter-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("./Assets/Fonts/Inter/static/Inter-Bold.ttf");
   font-weight: bold;
   font-style: normal;
 }

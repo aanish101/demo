@@ -3,7 +3,7 @@ import Icon1 from './Assets/SVG/Icon1.svg';
 import Icon2 from './Assets/SVG/Icon2.svg';
 import Icon3 from './Assets/SVG/Icon3.svg';
 import Icon4 from './Assets/SVG/Icon4.svg';
-import Icon5 from './Assets/SVG/Icon2.svg';
+import Icon5 from './Assets/SVG/Icon5.svg';
 import Icon6 from './Assets/SVG/Icon6.svg';
 function App() {
   const data = [
@@ -60,7 +60,7 @@ function App() {
         <div className='items-grid'>
           {data.map((item) => (
             <div className='item p-3' key={item.id}>
-              <div className='item-icon flex justify-center mb-2'>
+              <div className='item-icon flex justify-center mb-3'>
                 <img src={item.icon} alt='icon' className='icon' />
               </div>
               <div className='item-text text-center'>

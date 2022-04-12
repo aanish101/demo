@@ -27,7 +27,7 @@ function App() {
     },
     {
       id: 4,
-      heading: "Feature4",
+      heading: "Feature 4",
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sit mus turpis sed sapien amet, purus condimentum sit.",
       icon: Icon4,
     },
